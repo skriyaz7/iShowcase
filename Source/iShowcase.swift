@@ -501,6 +501,12 @@ import Foundation
         titleLabel.removeFromSuperview()
         detailsLabel.removeFromSuperview()
     }
+    
+    public func setType(newType : Int) {
+
+        type = TYPE(rawValue: newType)
+
+    }
 
 }
 
